@@ -1,77 +1,64 @@
-# 210413_psen1LONGTRACK
+# ZFAD
 
-## Experiment
+Code for
 
-### Info
+François Kroll, Joshua Donnelly, Joshua Donnelly, Güliz Gürel Özcan, Eirinn Mackay, Jason Rihel
 
-dof 09/04/2021
+**Behavioural pharmacology predicts disrupted signalling pathways and candidate therapeutics from zebrafish mutants of Alzheimer’s disease risk genes**
 
-Started tracking 13/04/2021 at 4 dpf
+eLife, 2024.
 
-BOX12/13
+https://doi.org/10.7554/eLife.96839.1
 
-* Sensitivity 20
-* Burst 200
-* Freezing 3
-* Misc 400
+___
 
-DAY = 95% (range Up to 1040 lux)  
-NIGHT = 0% (range Up to 1040 lux)  
-DIM FREERUNNING = 5% (range Up to 1040 lux)
+Get in touch for questions
 
-Irrigation device from Amazon  
-Set to 50 mL every 4 hours  
+  * [![alt text][1.2]][1] [@francois_kroll](https://twitter.com/francois_kroll)
 
+  * :email: francois@kroll.be
 
-### 21/04/2021 12dpf  
-09.41  
-BOX13: one fish escaped; it is swimming below the plate  
+<!-- icons with padding -->
+[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
 
-### 22/04/2021 13dpf  
+<!-- icons without padding -->
+[1.2]: http://i.imgur.com/wWzX9uB.png (twitter icon without padding)
 
-STOP at 10.48 = 208h30m15s  
+<!-- links to your social media accounts -->
+[1]: https://twitter.com/francois_kroll
 
-## Analysis
+___
 
-For purpose of thesis, plotting BOX13 SCR only.  
+Data is found at Zenodo repository: XXX. The present GitHub repo only contains code.
 
-### Zebralab rawoutput  
+A rough index to help you find the code you want:
 
-3,553 xls files with 1M rows each  
-i.e. 3553000000 rows total  
-/ 192 wells / 25 frames-per-second / 60 seconds / 60 minutes = ~ 205 hours  
+* 210413_psen1LONGTRACK: experiment in Fig. 2b
 
-### Fixing ordering errors
+* 210913_PSEN1, 210907_PSEN2, 220524_APPAB: behaviour experiments in Fig. 3 and supplementary.
 
-With Vp_Sorter.R (ran on Rihel lab common computer, Windows), ran on each box at a time.  
+* 220313_APOEAB_2, 220516_APOEAB_3, 220725_CD2AP, 220601_CLU, 220531_SORL1: behaviour experiments in Fig. 4 and supplementary.
 
-Writes (for each box)
-* 210413_12_RAWs.csv + 210413_13_RAWs.csv
-* 210413_12_VpSorterlog.md + 210413_13_VpSorterlog.md
+* october2021_MiSeq, 220524_miseq, 220915_miseq: MiSeq sequencing data, as e.g. Fig. 3c.
 
-### Frame-by-frame data to trace
+* 221123_PSENab: Aβ measurements in psen1/psen2 knockouts, Fig. 3e.
 
-See 210413_PSEN1_main.R
+* 230214_sorl1Citalopram: behaviour experiment in Fig. 5 and supplementary.
 
+* 230314_psen2Rescue: behaviour experiment in Fig. 6 and supplementary.
 
-## 210907_PSEN2
+* ADgenesHCR: HCRs presented in Fig. 1–suppl. 3 & Fig. 1–suppl. 4.
 
-! used backup RNPs from -80C freezer
-(not used before)
+* FbyFcomparison: plots Fig. 2–suppl. 2b,c.
 
-Ran test for one night 06/09/2021 to 07/09/2021 in Box 12/13 with Hobo  
+* fingerprints: most fingerprint plots, as in Fig. 3h.
 
-Hobo data looks perfect: transitions at correct times and temperature fluctuates between 25.8 and 26.2˚C
+* geneSelect: donut plot in Fig. 1a.
 
-### tracking
+* transcriptMaps: map of genes as e.g. Fig. 3c.
 
-Stopped 10/09/2021 at 10.32  
-total 67 hours 48 minutes  
-All fish looking OK on video  
-Water level OK in both boxes  
-Temperature in room 27˚C  
-In baths 27–27.5˚C  
+* utilities: two lost scripts used in different folders. ggFrameshift.R to generate plots of mutated/frameshifted MiSeq reads, as e.g. Fig. 3c. percEffectSize.R to calculate effect sizes of behavioural parameters reported in text.
 
-! BOX12 is written as box1 in Zebralab, but prefix of wells is 2-  
-and vice-versa for BOX13  
-Check looking at the data of the right box (left well 96 of BOX12 empty for this purpose)  
+* zfBrain_scRNAseq: Fig. 1b,c & Fig. 1–suppl. 1 & Fig. 1–suppl. 2; using the single-cell RNA sequencing dataset from [Raj et al. 2020](https://doi.org/10.1016/j.neuron.2020.09.023).
+
+* zoltarAll: relates to Author Response. Explores results from running [ZOLTAR](https://francoiskroll.shinyapps.io/zoltar/) on every F0 knockout tested.

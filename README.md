@@ -52,3 +52,26 @@ Writes (for each box)
 ### Frame-by-frame data to trace
 
 See 210413_PSEN1_main.R
+
+
+## 210907_PSEN2
+
+! used backup RNPs from -80C freezer
+(not used before)
+
+Ran test for one night 06/09/2021 to 07/09/2021 in Box 12/13 with Hobo  
+
+Hobo data looks perfect: transitions at correct times and temperature fluctuates between 25.8 and 26.2˚C
+
+### tracking
+
+Stopped 10/09/2021 at 10.32  
+total 67 hours 48 minutes  
+All fish looking OK on video  
+Water level OK in both boxes  
+Temperature in room 27˚C  
+In baths 27–27.5˚C  
+
+! BOX12 is written as box1 in Zebralab, but prefix of wells is 2-  
+and vice-versa for BOX13  
+Check looking at the data of the right box (left well 96 of BOX12 empty for this purpose)  

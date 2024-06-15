@@ -35,7 +35,7 @@ library(data.table)
 # plot trace --------------------------------------------------------------
 
 ### v4 -- colours to go with sleep parameters for new version of FramebyFrame figure with zooms
-ggActivityTraceByGroup(ffpath=here('210413_psen1LONGTRACK', '210413_13_RAWsv2.csv'),
+ggActivityTraceByGroup(ffpath=here('data', '210413_psen1LONGTRACK', '210413_13_RAWsv2.csv'),
                        genopath=here('210413_psen1LONGTRACK', '210413_13genotype.txt'),
                        smoothOrNo=TRUE,
                        smooth_nsecs=30*60,
@@ -64,7 +64,7 @@ ggActivityTraceByGroup(ffpath=here('210413_psen1LONGTRACK', '210413_13_RAWsv2.cs
                        width=112,
                        height=50)
 
-ff <- fread(here('210413_psen1LONGTRACK/210413_13_RAWsv2.csv'))
+ff <- fread(here('data', '210413_psen1LONGTRACK/210413_13_RAWsv2.csv'))
 # tracking started 2021-04-13 18:18:09
 # tacking finished 2021-04-22 10:48:24
 # which is 208.5 hr

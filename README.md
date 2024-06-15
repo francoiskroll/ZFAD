@@ -10,6 +10,11 @@ eLife, 2024.
 
 https://doi.org/10.7554/eLife.96839.1
 
+The work is associated with two other GitHub repos:
+
+* [FramebyFrame R package](https://github.com/francoiskroll/FramebyFrame)
+* [ZOLTAR app](https://github.com/francoiskroll/ZOLTAR). The app in action is at [ZOLTAR](https://francoiskroll.shinyapps.io/zoltar/).
+
 ___
 
 Get in touch for questions

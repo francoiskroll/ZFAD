@@ -15,6 +15,8 @@ The work is associated with two other GitHub repos:
 * [FramebyFrame R package](https://github.com/francoiskroll/FramebyFrame)
 * [ZOLTAR app](https://github.com/francoiskroll/ZOLTAR). The app in action is at [ZOLTAR](https://francoiskroll.shinyapps.io/zoltar/).
 
+Data is found at [Zenodo repository](https://doi.org/10.5281/zenodo.11673115). The present GitHub repo only contains code.
+
 ___
 
 Get in touch for questions
@@ -33,8 +35,6 @@ Get in touch for questions
 [1]: https://twitter.com/francois_kroll
 
 ___
-
-Data is found at Zenodo repository: XXX. The present GitHub repo only contains code.
 
 A rough index to help you find the code you want:
 

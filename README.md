@@ -33,7 +33,7 @@ Data is found at Zenodo repository: XXX. The present GitHub repo only contains c
 
 A rough index to help you find the code you want:
 
-* **210413_psen1LONGTRACK****: experiment in Fig. 2b
+* **210413_psen1LONGTRACK**: experiment in Fig. 2b
 
 * **210913_PSEN1**, **210907_PSEN2**, **220524_APPAB**: behaviour experiments in Fig. 3 and supplementary.
 

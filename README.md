@@ -2,13 +2,10 @@
 
 Code for
 
-François Kroll, Joshua Donnelly, Joshua Donnelly, Güliz Gürel Özcan, Eirinn Mackay, Jason Rihel
-
-**Behavioural pharmacology predicts disrupted signalling pathways and candidate therapeutics from zebrafish mutants of Alzheimer’s disease risk genes**
-
-eLife, 2024.
-
-https://doi.org/10.7554/eLife.96839.1
+François Kroll, Joshua Donnelly, Güliz Gürel Özcan, Eirinn Mackay, Jason Rihel  
+**Behavioural pharmacology predicts disrupted signalling pathways and candidate therapeutics from zebrafish mutants of Alzheimer’s disease risk genes**  
+_eLife_, 2024
+https://doi.org/10.7554/eLife.96839.2
 
 The work is associated with two other GitHub repos:
 
